@@ -1,0 +1,32 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suxxuscomp/store.git"
+  },
+  "author": "suxxus",
+  "license": "ISC",
+  "description": "redux studies, create store",
+  "scripts": {
+    "lint": "eslint --color  src || true",
+    "dev": "watch -p 'src/**/*.js' -c 'npm run lint'",
+    "check": "npm outdated --depth=0",
+    "update": "updtr"
+  },
+  "devDependencies": {
+    "eslint": "2.10.2",
+    "eslint-cli": "1.1.0",
+    "eslint-config-eslint": "3.0.0",
+    "updtr": "0.1.14",
+    "watch-cli": "0.2.1"
+  },
+  "keywords": [
+    "node",
+    "redux",
+    "store"
+  ],
+  "dependencies": {
+    "redux": "3.5.2"
+  }
+}
